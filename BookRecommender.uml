@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>BookRecommender</OriginalElement>
+  <nodes>
+    <node x="-983.9224563708408" y="741.5864481754439">BookRecommender.Main$</node>
+    <node x="-920.0" y="385.0">BookRecommender.Books$</node>
+    <node x="-941.2796762589928" y="622.4957459813397">BookRecommender.Books</node>
+    <node x="-946.0" y="265.0">BookRecommender.Recommender</node>
+    <node x="-929.0" y="505.0">BookRecommender.Processor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="BookRecommender.Books$" target="BookRecommender.Recommender" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="BookRecommender.Processor" target="BookRecommender.Books$" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="BookRecommender.Main$" target="BookRecommender.Books" relationship="GENERALIZATION">
+      <point x="0.0" y="-17.413551824556038" />
+      <point x="0.0" y="16.504254018660205" />
+    </edge>
+    <edge source="BookRecommender.Books" target="BookRecommender.Processor" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.504254018660205" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.9696625356580614" showDependencies="false" x="-731.23154296875" y="516.9166870117188" />
+  <SelectedNodes>
+    <node>BookRecommender.Books</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
